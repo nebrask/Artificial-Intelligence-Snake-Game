@@ -106,16 +106,3 @@ def snakegame():
 
 snakegame()
 
-# class Snake:
-#   pass
-
-# class Food:
-#   pass
-
-# def next_turn():
-#   pass
-
-# def change_direction():
-#   pass
-
-# def check_collision
