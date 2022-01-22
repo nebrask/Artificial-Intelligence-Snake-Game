@@ -98,19 +98,7 @@ def snakegame():
                 elif event.key == pygame.K_DOWN:
                     y1_change = snake_block
                     x1_change = 0
-        '''
-        if direction == UP:
-            newHead = {'x': wormCoords[HEAD]['x'], 'y': wormCoords[HEAD]['y'] - 1}
-        elif direction == DOWN:
-            newHead = {'x': wormCoords[HEAD]['x'], 'y': wormCoords[HEAD]['y'] + 1}
-        elif direction == LEFT:
-            newHead = {'x': wormCoords[HEAD]['x'] - 1, 'y': wormCoords[HEAD]['y']}
-        elif direction == RIGHT:
-            newHead = {'x': wormCoords[HEAD]['x'] + 1, 'y': wormCoords[HEAD]['y']}
-        wormCoords.insert(0, newHead)
-        if x1 >= display_width or x1 < 0 or y1 >= display_height or y1 < 0:
-            game_end = True
-        '''
+      
         x1 += x1_change
         y1 += y1_change
         dis.fill(black)
