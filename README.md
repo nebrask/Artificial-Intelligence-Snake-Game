@@ -1,1 +1,1 @@
-# Artificial-Intelligence-Snake-Game
+# Snake-Game
